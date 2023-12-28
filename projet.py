@@ -157,8 +157,7 @@ def brique7(graph):
     """
     Trie les sommets par nombre de voisins croissant afin que la brique 7 soit respectée
     """
-    sorted_list = sorted(graph, key=lambda x: len(graph[x].voisins))
-    return sorted_list
+    return sorted(graph, key=lambda x: len(graph[x].voisins))
 
 def coloring_it(graph):
     """
